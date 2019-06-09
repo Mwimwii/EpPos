@@ -10,7 +10,7 @@ services:
       - static:/usr/src/app/static
     environment:
       DEBUG: 'false'
-    command: gunicorn EpPos2.wsgi:application -w 2 -b :8000
+    command: gunicorn EpPos2.wsgi:application -w 2 -b 0.0.0.0:8000
     networks:
       - backlink
   

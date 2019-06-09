@@ -1,2 +1,5 @@
 EpPos
 Django>=2.0
+djangorestframework
+markdown
+django-filter
